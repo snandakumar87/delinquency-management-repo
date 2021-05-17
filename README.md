@@ -10,4 +10,9 @@ Setup:
    2.1) Once deployment completes, import https://github.com/snandakumar87/delinquency-mgmt.git to Business central. Build and Deploy.
 3) oc new-project dm-reporting
    Install Elastic operator and deploy a elastic cluster and Kibana instance.
+4) Make sure the adjust the PAM URL in the CustomerCase.java, CustomerRelationshipManagement.java 
+5) sh provision.sh
+
+   
+   
    

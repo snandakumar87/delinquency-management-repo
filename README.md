@@ -13,8 +13,8 @@ Setup:
 4) Make sure the adjust the PAM URL in the CustomerCase.java, CustomerRelationshipManagement.java 
 5) sh provision.sh
 
-# Testing:
-==========
+Testing:
+=======
 
 POST <sd-credit-charge-card-url>/sd-credit-chrg-card/credit-charge-card/credit-charge-card/SDREF24334/credit-charge-card-fulfilment-arrangement/CR24334/cardtransaction/BQREF24334/update
    

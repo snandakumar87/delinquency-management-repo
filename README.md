@@ -8,6 +8,7 @@ Setup:
 2) oc new-project dm-rhpam
    Install Business Automation Operator and deploy a KIE instance.
    2.1) Once deployment completes, import https://github.com/snandakumar87/delinquency-mgmt.git to Business central. Build and Deploy.
+   2.2) import https://github.com/snandakumar87/dm-case to Business Central. Build and Deploy. (After the services are deployed, the url for the delinquency management and account recovery sd need to be updated on the case)
 3) oc new-project dm-reporting
    Install Elastic operator and deploy a elastic cluster and Kibana instance.
 4) Make sure the adjust the PAM URL in the CustomerCase.java, CustomerRelationshipManagement.java 

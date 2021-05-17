@@ -13,6 +13,37 @@ Setup:
 4) Make sure the adjust the PAM URL in the CustomerCase.java, CustomerRelationshipManagement.java 
 5) sh provision.sh
 
+# Testing:
+==========
+
+POST <sd-credit-charge-card-url>/sd-credit-chrg-card/credit-charge-card/credit-charge-card/SDREF24334/credit-charge-card-fulfilment-arrangement/CR24334/cardtransaction/BQREF24334/update
+   
+{
+  "creditChargeCardFulfilmentArrangementInstanceReference": "CCCFAIR786952",
+  "cardTransactionInstanceReference": "CTIR783033",
+  "cardTransactionInstanceRecord": {
+    "cardTransaction": {
+      "cardTransactionProductInstanceReference": "707676",
+      "cardTransactionNetworkReference": "742083",
+      "cardTransactionIssuingBankReference": "782147",
+      "cardTransactionMerchantAcquiringBankReference": "764711",
+      "cardTransactionType": "CARDTRANSACTION",
+      "cardTransactionCurrency": "USD",
+      "cardTransactionAmountType": "string",
+      "cardTransactionAmount": "250",
+      "cardTransactionMerchantReference": "761100",
+      "cardTransactionLocationReference": "761538",
+      "cardTransactionProductServiceReference": "764958",
+      "cardTransactionDateTime": "09-22-2018",
+      "cardTransactionFXConversionCharge": "250",
+      "cardTransactionInterchargeFee": "250",
+      "cardTransactionAuthorizationRecord": {}
+    }
+  },
+  "cardTransactionUpdateActionTaskRecord": {},
+  "cardTransactionUpdateActionRequest": "string"
+}   
+
    
    
    

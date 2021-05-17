@@ -11,6 +11,7 @@ Setup:
    2.2) import https://github.com/snandakumar87/dm-case to Business Central. Build and Deploy. (After the services are deployed, the url for the delinquency management and account recovery sd need to be updated on the case)
 3) oc new-project dm-reporting
    Install Elastic operator and deploy a elastic cluster and Kibana instance.
+   3.1) once deployed, import dm.ndjson on the Saved Object to view the Dashboard.
 4) Make sure the adjust the PAM URL in the CustomerCase.java, CustomerRelationshipManagement.java 
 5) sh provision.sh
 
